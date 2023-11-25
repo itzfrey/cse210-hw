@@ -22,8 +22,10 @@ public class Journal
 
     public void SaveToFile()
         {
-            Console.Write("Enter the filename to save the journal: ");
+            Console.Write("Enter the filename to save the journal (without extention): ");
             string filename = Console.ReadLine();
+
+            filename += ".csv";
 
             using (StreamWriter writer = new StreamWriter(filename))
         {
@@ -40,6 +42,8 @@ public class Journal
     {
         Console.Write("Enter filename: ");
         String filename = Console.ReadLine();
+
+        filename += ".csv";
         
         if (File.Exists(filename))
         {
