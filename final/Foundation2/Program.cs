@@ -10,13 +10,13 @@ class Program
         Customer customer1 = new Customer("Godfrey Hogan Eyo", address1);
         List<Product> productsList1 = new List<Product>();
 
-        Product p1001 = new Product("Smartphone", "IP213", 999.99, 1);
-        Product p1002 = new Product("coofee Maker", "CM22", 3.50, 1);
-        Product p1003 = new Product("External Hard Drive", "EH05", 1.99, 2);
+        Product product101 = new Product("Smartphone", "IP213", 999.99, 1);
+        Product product102 = new Product("coofee Maker", "CM22", 3.50, 1);
+        Product product103 = new Product("External Hard Drive", "EH05", 1.99, 2);
 
-        productsList1.Add(p1001);
-        productsList1.Add(p1002);
-        productsList1.Add(p1003);
+        productsList1.Add(product101);
+        productsList1.Add(product102);
+        productsList1.Add(product103);
 
         Order order1 = new Order(productsList1, customer1);
 
@@ -29,13 +29,13 @@ class Program
         Customer customer2 = new Customer("Thomas Andrew", address2);
         List<Product> productsList2 = new List<Product>();
 
-        Product p2001 = new Product("Tooth Brush", "HLSET", 4.99, 10);
-        Product p2002 = new Product("gaming Console", "Gc100", 700.45, 2);
-        Product p2003 = new Product("Tablet", "TB1000", 599, 1);
+        Product product201 = new Product("Tooth Brush", "HLSET", 4.99, 10);
+        Product product202 = new Product("gaming Console", "Gc100", 700.45, 2);
+        Product product203 = new Product("Tablet", "TB1000", 599, 1);
 
-        productsList2.Add(p2001);
-        productsList2.Add(p2002);
-        productsList2.Add(p2003);
+        productsList2.Add(product201);
+        productsList2.Add(product202);
+        productsList2.Add(product203);
 
         Order order2 = new Order(productsList2, customer2);
 
@@ -48,11 +48,11 @@ class Program
         Customer customer3 = new Customer("Dario G. Mostacero", address3);
         List<Product> productsList3 = new List<Product>();
 
-        Product p3001 = new Product("Pencil ", "PC100", 10.76, 20);
-        Product p3002 = new Product("lighter Set", "HLSET", 4.99, 4);
+        Product product301 = new Product("Pencil ", "PC100", 10.76, 20);
+        Product product302 = new Product("lighter Set", "HLSET", 4.99, 4);
 
-        productsList3.Add(p3001);
-        productsList3.Add(p3002);
+        productsList3.Add(product301);
+        productsList3.Add(product302);
 
         Order order3 = new Order(productsList3, customer3);
 
